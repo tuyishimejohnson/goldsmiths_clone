@@ -562,16 +562,8 @@ video {
   position: relative;
 }
 
-.-bottom-32 {
-  bottom: -8rem;
-}
-
 .-bottom-36 {
   bottom: -9rem;
-}
-
-.-bottom-52 {
-  bottom: -13rem;
 }
 
 .-right-3 {
@@ -582,20 +574,12 @@ video {
   bottom: 0.75rem;
 }
 
-.left-14 {
-  left: 3.5rem;
-}
-
 .left-3 {
   left: 0.75rem;
 }
 
 .left-32 {
   left: 8rem;
-}
-
-.right-14 {
-  right: 3.5rem;
 }
 
 .right-3 {
@@ -610,8 +594,8 @@ video {
   top: 9rem;
 }
 
-.right-0 {
-  right: 0px;
+.z-10 {
+  z-index: 10;
 }
 
 .mx-14 {
@@ -630,10 +614,6 @@ video {
 
 .mt-16 {
   margin-top: 4rem;
-}
-
-.mt-36 {
-  margin-top: 9rem;
 }
 
 .mt-40 {
@@ -893,36 +873,53 @@ video {
     position: relative;
   }
 
-  .md\:right-0 {
-    right: 0px;
-  }
-
-  .md\:top-0 {
-    top: 0px;
-  }
-
   .md\:-bottom-32 {
     bottom: -8rem;
   }
 
-  .md\:right-14 {
-    right: 3.5rem;
+  .md\:-bottom-60 {
+    bottom: -15rem;
   }
 
   .md\:left-14 {
     left: 3.5rem;
   }
 
-  .md\:-bottom-52 {
-    bottom: -13rem;
-  }
-
   .md\:left-3 {
     left: 0.75rem;
   }
 
+  .md\:right-0 {
+    right: 0px;
+  }
+
+  .md\:right-14 {
+    right: 3.5rem;
+  }
+
   .md\:right-3 {
     right: 0.75rem;
+  }
+
+  .md\:top-0 {
+    top: 0px;
+  }
+
+  .md\:-bottom-5 {
+    bottom: -1.25rem;
+  }
+
+  .md\:-bottom-52 {
+    bottom: -13rem;
+  }
+
+  .md\:mx-14 {
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+  }
+
+  .md\:mt-36 {
+    margin-top: 9rem;
   }
 
   .md\:flex {
@@ -987,60 +984,16 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:static {
-    position: static;
-  }
-
-  .lg\:right-0 {
-    right: 0px;
-  }
-
-  .lg\:left-0 {
-    left: 0px;
-  }
-
-  .lg\:right-6 {
-    right: 1.5rem;
+  .lg\:-bottom-60 {
+    bottom: -15rem;
   }
 
   .lg\:right-8 {
     right: 2rem;
   }
 
-  .lg\:bottom-14 {
-    bottom: 3.5rem;
-  }
-
-  .lg\:-bottom-52 {
-    bottom: -13rem;
-  }
-
-  .lg\:-bottom-60 {
-    bottom: -15rem;
-  }
-
-  .lg\:m-auto {
-    margin: auto;
-  }
-
-  .lg\:mr-0 {
-    margin-right: 0px;
-  }
-
-  .lg\:mr-\[-\] {
-    margin-right: -;
-  }
-
-  .lg\:mr-\[-2em\] {
-    margin-right: -2em;
-  }
-
   .lg\:ml-auto {
     margin-left: auto;
-  }
-
-  .lg\:mr-auto {
-    margin-right: auto;
   }
 
   .lg\:inline-block {
@@ -1061,17 +1014,5 @@ video {
 
   .lg\:w-1\/4 {
     width: 25%;
-  }
-
-  .lg\:items-end {
-    align-items: flex-end;
-  }
-
-  .lg\:justify-end {
-    justify-content: flex-end;
-  }
-
-  .lg\:justify-items-end {
-    justify-items: end;
   }
 }
