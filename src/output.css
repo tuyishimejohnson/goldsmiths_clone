@@ -614,6 +614,34 @@ video {
   top: 9rem;
 }
 
+.bottom-28 {
+  bottom: 7rem;
+}
+
+.-bottom-28 {
+  bottom: -7rem;
+}
+
+.-bottom-32 {
+  bottom: -8rem;
+}
+
+.-bottom-4 {
+  bottom: -1rem;
+}
+
+.-bottom-48 {
+  bottom: -12rem;
+}
+
+.bottom-48 {
+  bottom: 12rem;
+}
+
+.-bottom-40 {
+  bottom: -10rem;
+}
+
 .mx-14 {
   margin-left: 3.5rem;
   margin-right: 3.5rem;
@@ -684,12 +712,12 @@ video {
   width: 1.25rem;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .w-6 {
   width: 1.5rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .rotate-180 {
@@ -707,10 +735,6 @@ video {
 
 .items-center {
   align-items: center;
-}
-
-.justify-start {
-  justify-content: flex-start;
 }
 
 .justify-end {
@@ -750,19 +774,14 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
-.bg-gray-100 {
+.bg-gray-200 {
   --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
 .bg-gray-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
-}
-
-.bg-red-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -854,10 +873,6 @@ video {
   line-height: 2rem;
 }
 
-.text-\[8px\] {
-  font-size: 8px;
-}
-
 .text-\[12px\] {
   font-size: 12px;
 }
@@ -874,10 +889,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\] {
-  color: ;
 }
 
 .shadow-lg {
@@ -917,8 +928,40 @@ video {
     display: flex;
   }
 
+  .md\:h-\[50vh\] {
+    height: 50vh;
+  }
+
   .md\:h-screen {
     height: 100vh;
+  }
+
+  .md\:h-\[0vh\] {
+    height: 0vh;
+  }
+
+  .md\:h-\[70vh\] {
+    height: 70vh;
+  }
+
+  .md\:h-\[80vh\] {
+    height: 80vh;
+  }
+
+  .md\:h-\[75vh\] {
+    height: 75vh;
+  }
+
+  .md\:h-\[\] {
+    height: ;
+  }
+
+  .md\:h-\[7\] {
+    height: 7;
+  }
+
+  .md\:h-\[75\] {
+    height: 75;
   }
 
   .md\:w-1\/2 {
@@ -943,8 +986,8 @@ video {
     padding-right: 1.75rem;
   }
 
-  .md\:pr-5 {
-    padding-right: 1.25rem;
+  .md\:pr-4 {
+    padding-right: 1rem;
   }
 
   .md\:pt-12 {
