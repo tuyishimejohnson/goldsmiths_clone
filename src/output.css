@@ -570,8 +570,8 @@ video {
   right: -0.75rem;
 }
 
-.-top-\[22\%\] {
-  top: -22%;
+.-top-\[18\%\] {
+  top: -18%;
 }
 
 .bottom-3 {
@@ -582,12 +582,12 @@ video {
   left: 0.75rem;
 }
 
-.right-14 {
-  right: 3.5rem;
-}
-
 .right-3 {
   right: 0.75rem;
+}
+
+.right-32 {
+  right: 8rem;
 }
 
 .top-0 {
@@ -604,54 +604,6 @@ video {
 
 .top-52 {
   top: 13rem;
-}
-
-.-top-\[2\%\] {
-  top: -2%;
-}
-
-.-top-\[25\%\] {
-  top: -25%;
-}
-
-.-top-\[27\%\] {
-  top: -27%;
-}
-
-.-top-\[30\%\] {
-  top: -30%;
-}
-
-.-top-\[12\%\] {
-  top: -12%;
-}
-
-.-top-\[1\%\] {
-  top: -1%;
-}
-
-.-top-\[13\%\] {
-  top: -13%;
-}
-
-.-top-\[14\%\] {
-  top: -14%;
-}
-
-.-top-\[15\%\] {
-  top: -15%;
-}
-
-.-top-\[18\%\] {
-  top: -18%;
-}
-
-.right-36 {
-  right: 9rem;
-}
-
-.right-32 {
-  right: 8rem;
 }
 
 .z-10 {
