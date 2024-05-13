@@ -606,6 +606,34 @@ video {
   top: 0px;
 }
 
+.-bottom-\[7\%\] {
+  bottom: -7%;
+}
+
+.-bottom-\[76\%\] {
+  bottom: -76%;
+}
+
+.-bottom-\[77\%\] {
+  bottom: -77%;
+}
+
+.-bottom-\[76\.5\%\] {
+  bottom: -76.5%;
+}
+
+.-bottom-\[76\.8\%\] {
+  bottom: -76.8%;
+}
+
+.-bottom-\[78\%\] {
+  bottom: -78%;
+}
+
+.-bottom-\[79\%\] {
+  bottom: -79%;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -708,14 +736,6 @@ video {
   height: 60%;
 }
 
-.h-\[60vh\] {
-  height: 60vh;
-}
-
-.h-\[0vh\] {
-  height: 0vh;
-}
-
 .w-1\/2 {
   width: 50%;
 }
@@ -790,6 +810,10 @@ video {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.scroll-smooth {
+  scroll-behavior: smooth;
 }
 
 .border {
