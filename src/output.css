@@ -708,6 +708,14 @@ video {
   height: 60%;
 }
 
+.h-\[60vh\] {
+  height: 60vh;
+}
+
+.h-\[0vh\] {
+  height: 0vh;
+}
+
 .w-1\/2 {
   width: 50%;
 }
